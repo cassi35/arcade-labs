@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'tech';/* aqui escolhe um nome */
+    src: url('OffBitTrial-Dot.ttf') format('truetype'), url('OffBitTrial-DotBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* 
+    tipos format() 
+    -opentype(otf)
+    truetype (ttf)
+
+    */
+}
+@font-face {
+    font-family: 'techBold';/* aqui escolhe um nome */
+    src: url('OffBitTrial-DotBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* 
+    tipos format() 
+    -opentype(otf)
+    truetype (ttf)
+
+    */
+}
+:root{
+--cor01:#0F0F0F;
+--cor02:#1B1B1B;
+--corFonte: rgba(255, 255, 255, 0.226);
+}
+body,html{
+height: 100vh;    
+}
+
+section#sessao01{
+    background-color: var(--cor01);
+    width: 100%;
+    height: 1600px;
+}
+header{
+    width: 100%;
+    height: 180px;
+
+}
+menu{
+width: 400px;
+margin: auto;
+padding: 30px 0;
+border-bottom: 0.1px solid rgba(255, 255, 255, 0.226);
+}
+menu nav{
+    width: 90%;
+    margin: auto;
+}
+menu nav > a{
+    text-decoration: none;
+    color: white;
+}
+menu nav a:nth-child(2){
+    float: right;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color:  rgba(255, 255, 255, 0.226);
+    font-size: 1em;
+}
+menu nav a:nth-child(1){
+    float: left;
+   font-family: 'tech';
+   font-size: 1.2em;
+   letter-spacing: 0.1em;
+   color: white;
+}
+section article{
+    width: 380px;
+    height: 450px;
+    margin-left: 3%;
+}
+section article h1{
+    font-family: 'Manrope', sans-serif;
+    color: #5665B1;
+    padding: 10px 0;
+}
+section article p:nth-child(2),p.font,p.p{
+    font-family: 'tech';
+    font-size: 2em;
+    color: white;
+}
+p.font{
+    font-family: 'techBold';
+}
+section article p:nth-child(8){
+    color: rgba(255, 255, 255, 0.226);
+    font-size: 1.3em;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+#links{
+    margin-top: 30px;
+    width: 100%;
+}
+section article a.link{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 100px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+section article a.link:nth-child(1){
+background-color: white;
+color: black;
+}
+section article a.link:nth-child(2){
+    background-color: var(--cor01);
+    border: 1px solid rgba(255, 255, 255, 0.226);
+}
+section#galeria{
+width: 400px;
+height: 900px;
+margin: auto;
+max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.imagem{
+    width: 100%;
+    border-radius: 20px;
+}
+.imagem:nth-of-type(2),.imagem:nth-of-type(1){
+   width:50%;
+}
