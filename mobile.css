@@ -121,19 +121,64 @@ section article a.link:nth-child(2){
     background-color: var(--cor01);
     border: 1px solid rgba(255, 255, 255, 0.226);
 }
-section#galeria{
-width: 400px;
-height: 900px;
-margin: auto;
-max-width: 100%;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-.imagem{
+section#sessao02{
     width: 100%;
-    border-radius: 20px;
+    background-color: red;
+    padding-top:100px;
+    height: 800px;
+    background-color: var(--cor02);
 }
-.imagem:nth-of-type(2),.imagem:nth-of-type(1){
-   width:50%;
+section#mostruario{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
+section#mostruario > article{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    
+}
+section#mostruario > article h1{
+   color:black;
+   float: left;
+   font-size: 3em;
+   color: white;
+   font-family: 'tech';
+   font-weight: lighter;
+}
+section#mostruario > article a{
+    text-align: center;
+    float: right;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight:bolder;
+ }
+ section#mostruario > aside{
+    background-color: #5665B1;
+    width: 100%;
+ }
+ section#mostruario aside{
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+    background-color: #5665B1;
+    display: flex;
+    flex-direction: column;
+ }
+#colu,#colu02{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 100%;
+    height: 400px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 0;
+    gap: 1em;
+}
+.box{
+   background-color: aqua;
+   width: 100%;
 }
