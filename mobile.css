@@ -39,7 +39,7 @@ height: 100vh;
 section#sessao01{
     background-color: var(--cor01);
     width: 100%;
-    height: 1600px;
+    height: 1800px;
 }
 header{
     width: 100%;
@@ -123,13 +123,12 @@ section article a.link:nth-child(2){
 }
 section#sessao02{
     width: 100%;
-    background-color: red;
     padding-top:100px;
     height: 1100px;
     background-color: var(--cor02);
 }
 section#mostruario{
-    width: 1200px;
+    width: 1100px;
     height: 700px;
     margin: auto;
 }
@@ -386,18 +385,18 @@ color:var(--corFonte);
         flex-direction: row;
         gap: 1.2em;
         justify-content: space-between;
-        height: 50%;
+        height: 400px;
         width: 100%;
         background-color: #1B1B1B;
-        padding: 80px;
+        padding:10px 5%;
         border-radius:20px;
+        align-items: center;
       }
       .sessao05-box02{
         border-radius: 20px;
         background-color: #0F0F0F;
-        padding: 20px;
         flex-grow: 1;
-        height: 400px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -409,8 +408,8 @@ color:var(--corFonte);
         font-size: 1.8em;
 
       }
-      .sessao05-box02  p{
-        font-size: 2px;
+      .sessao05-box02 >  p.p01{
+        font-size:1.6em;
         color: white;
         font-family: 'tech';
         font-weight: lighter;
@@ -469,4 +468,31 @@ color:var(--corFonte);
         background-color: #5665B1;
         color: white;
         font-size: 1em;
+      }
+      footer{
+        width: 100%;
+        background-color: #0F0F0F;
+        height: 300px;
+      }
+      footer article{
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+      }
+      footer article p{
+        float: left;
+        padding: 30px;
+        color: white;
+
+      }
+      footer article ul{
+        float: right;
+      }
+      footer article ul li{
+        float: left;
+        padding: 30px;
+      }
+      footer article ul li a{
+      text-decoration: none;
+      color: var(--corFonte);
       }

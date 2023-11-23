@@ -5,6 +5,38 @@ desktop:  769px — 1024px.
 monitores : 1025px — 1200px.
 tv : 1201px ou mais */
 @media screen and (min-width:1200px){
+    section#sessao01 article{
+        width: 80%;
+        margin: auto;
+        height: 600px;
+    }
+    section article p:nth-child(2),p.font,p.p{
+        font-family: 'tech';
+        font-size: 3em;
+        color: white;
+    }
+    p.font{
+        font-family: 'techBold';
+    }
+    section article p:nth-child(8){
+        color: rgba(255, 255, 255, 0.226);
+        font-size: 1.3em;
+        font-family: sans-serif;
+        padding: 20px 0;
+    }
+section article a.link{
+    margin: 10px;
+}
+    section#sessao01 header{
+        width: 100%;
+        height: 100px;
+        border-bottom: 0.1px solid rgba(255, 255, 255, 0.226);
+    }
+    section#sessao01 header menu{
+        width: 100%;
+        height: 100px;
+        border-bottom: none;
+    }
     section#galeria{
         width: 1200px;
         margin: auto;
@@ -29,6 +61,24 @@ tv : 1201px ou mais */
     
 }
 @media screen and (min-width:800px) and (max-width:1199px){
+    section#sessao01 header{
+        width: 100%;
+        height: 100px;
+        border-bottom: 0.1px solid rgba(255, 255, 255, 0.226);
+    }
+    section#sessao01 header menu{
+        width: 100%;
+        height: 100px;
+        border-bottom: none;
+    }
+    section article{
+        width: 90%;
+        height: 35%;
+        margin:20px auto;
+    }
+    section article p{
+        font-size: 1.5m;
+    }
     section#galeria{
         width: 100%;
         margin: 10%;
@@ -40,6 +90,7 @@ tv : 1201px ou mais */
     flex-grow: 1;
     flex-shrink: 1;
     }
+
     .coluna01 img,.coluna02 img,.coluna03 img{
         width: 100%;
         height: 200px;
@@ -60,7 +111,73 @@ tv : 1201px ou mais */
         gap: 1em;
         display: flex;
     }
+    section#sessao03{
+        height: 800px;
+    }
+    section#mostruario{
+        margin: 0 auto;
+        width: 70%;
+    }
+    article#comoFunciona{
+        margin: 0 auto;
+        width: 70%;
+    }
+    article#comoFunciona{
+        margin: 0 auto;
+        width: 70%;
+        flex-direction: column;
+    }
+    article#precos{
+        width: 70%;
+    }
+    article#precos h1{
+        font-size: 2em;
+    }
+    article#precos p{
+        font-size: 1em;
+        width: 50%;
+    }
+article.preco-box{
+width: 100%;
+}
+.preco-box-filho{
+    height: 60%;
     
+}
+.preco-box-filho h2{
+ font-size: 2.5em;
+
+}
+.preco-box-filho:nth-child(3){
+display: none;
+}
+section#sessao05-filho{
+    width: 70%;
+
+}
+article#sessao05-article{
+    padding: 5% 2%;
+}
+article#sessao05-article .sessao05-box{
+   flex-shrink: 2;
+}
+article#sessao05-article2{
+}
+.sessao05-box02{
+height: 200px;
+}
+.sessao05-box02 > h5{
+    font-size: 1em;
+}
+article#sessao05-article3{
+    width: 70%;
+}
+article#sessao05-article3 h1{
+    font-size: 2em;
+}
+footer article{
+    width: 70%;
+}
 }
 @media screen and (max-width:799px){
     section#galeria{
@@ -95,4 +212,147 @@ tv : 1201px ou mais */
     .coluna03{
 display: none;
     }
+
+    section#mostruario > article a{
+        display: none;
+    }
+ section#mostruario aside{
+ }
+    section#sessao02{
+        height: 1300px;
+    }
+        #colu{
+            width: 100%;
+            flex-direction: column;
+        }
+        #colu02{
+            display: none;
+        }
+        .box-filho img{
+            width: 30vmin;
+        }
+
+
+
+    section#sessao03{
+        height: 800px;
+    }
+    section#mostruario{
+        margin: 0 auto;
+        width: 70%;
+    }
+    article#comoFunciona{
+        margin: 0 auto;
+        width: 70%;
+    }
+    article#comoFunciona{
+        margin: 0 auto;
+        width: 100%;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .colection{
+        width: 70%;
+    }
+    section#sessao04{
+    height: 900px;
+
+    }
+    article#precos{
+        width: 60%;
+    }
+    article#precos h1{
+    font-size: 1em;
+    }
+    article#precos h1{
+        font-size: 2em;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    article#precos p:nth-child(2){
+        width: 100%;
+    }
+    article#precos p{
+        font-size: 1em;
+        width: 50%;
+    }
+article.preco-box{
+width: 90%;
+flex-direction: column;
+
+}
+.preco-box-filho{
+    height: 40%;
+    
+}
+.preco-box-filho h2{
+ font-size: 2.5em;
+
+}
+.preco-box-filho:nth-child(3){
+display: none;
+}
+section#sessao05-filho{
+    width: 70%;
+
+}
+section#sessao05-filho h1{
+    width: 100%;
+    font-size: 2rem;
+
+}
+article#sessao05-article{
+    padding: 5% 2%;
+    flex-direction: column;
+}
+article#sessao05-article picture{
+    flex-basis: 100px;
+    width: 100px;
+    margin: auto;
+
+}
+article#sessao05-article .sessao05-box h3{
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+article#sessao05-article .sessao05-box a{
+    width: 100px;
+    padding: 10px 0;
+
+}
+article#sessao05-article .sessao05-box{
+   flex-shrink: 2;
+}
+article#sessao05-article2{
+    flex-direction: column;
+    height: 600px;
+}
+.sessao05-box02{
+height: 200px;
+width: 100%;
+}
+.sessao05-box02 > h5{
+display: block;
+text-align: center;
+}
+.sessao05-box02 >  p.p01{
+    font-size:1.2em;
+margin: auto;
+}
+.sessao05-box02 > a{
+    display: inline-block;
+    margin: auto;
+}
+.sessao05-box02 > h5{
+    font-size: 1em;
+}
+article#sessao05-article3{
+    width: 70%;
+}
+article#sessao05-article3 h1{
+    font-size: 2em;
+}
+footer article{
+    width: 70%;
+}
 }
