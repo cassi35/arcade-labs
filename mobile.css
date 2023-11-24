@@ -32,8 +32,12 @@
 --cor02:#1B1B1B;
 --corFonte: rgba(255, 255, 255, 0.226);
 }
+html{
+  overflow-x: hidden;
+}
 body,html{
 height: 100vh;    
+overflow-x: none;
 }
 
 section#sessao01{
@@ -51,6 +55,12 @@ width: 400px;
 margin: auto;
 padding: 30px 0;
 border-bottom: 0.1px solid rgba(255, 255, 255, 0.226);
+}
+menu > p.menu{
+  display: none;
+}
+menu nav span{
+  display: none;
 }
 menu nav{
     width: 90%;
