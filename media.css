@@ -5,9 +5,7 @@ desktop:  769px — 1024px.
 monitores : 1025px — 1200px.
 tv : 1201px ou mais */
 @media screen and (min-width:1255px){
-    html,body{
-        overflow-y: none;
-    }
+    
     menu span{
         display: none;
       }
