@@ -1,2 +1,2 @@
 # arcade labs
- site para mostrar o trabalho
+este é um clone da landing page arcadelabs com as tecnologias html e css puro .
